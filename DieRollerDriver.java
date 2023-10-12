@@ -17,7 +17,7 @@ public class DieRollerDriver {
 	 * 		   recursive function to roll again, otherwise when it is done it return a roll
 	 */
 	public int roll(int i, int k) {
-		int roll = random.nextInt(1, sides+1);
+		int roll = random.nextInt(7);
 		int lastTwo =0;
 		int mean;
 		 //Rolls the six sided dice;
