@@ -1,5 +1,10 @@
 import java.util.Random;
-
+/**
+ * CS215
+ * @author tylerlericos
+ * Johnson
+ * Recursive Dice
+ */
 public class DieRollerDriver {
 	Random random = new Random();
 	int sides = 6;
